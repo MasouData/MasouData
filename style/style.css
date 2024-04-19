@@ -1,0 +1,220 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+header{
+    background-color: rgb(237, 232, 232);
+}
+
+
+#menu-icon {
+    cursor: pointer;
+    /* Styles for the menu icon */
+    font-size: 2rem; /* Example size, adjust as needed */
+    border: none; /* Removes border */
+    background: transparent; /* Removes background */
+}
+
+.container {
+    position: relative; /* This makes the header a positioning context for the nav */
+  }
+
+#navbar {
+    position: absolute; /* This positions the nav relative to the header */
+    top: 100%; /* This positions the nav just below the header */
+    left: 0; /* This aligns the nav to the left of the header */
+    background-color: #fff; /*Background color of the dropdown */
+    border: 1px solid #ddd; /* Border for the dropdown */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Optional: Adds a shadow effect */
+    display: none; /* Hidden by default */
+    z-index: 10;
+}
+
+#navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px; /* Adds space around the link text */
+    border-bottom: 1px solid #ddd; /* Adds a separator between links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#navbar li:last-child a {
+    border-bottom: none; /* Removes border from the last link */
+}
+
+#navbar li a:hover, #navbar li a:focus {
+  background-color: #e6e5e5; /* Changes background color on hover/focus */
+  cursor: pointer; /* Changes cursor to pointer */
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* align-items to the start to top-align image and text */
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row; /* ensures that the items are laid out in a row */
+    max-width: 800px; /* or the width you prefer */
+    align-items: flex-start; /* align the items to the top */
+  }
+  
+  .profile img {
+    flex-shrink: 0; /* prevents the image from shrinking */
+    margin-right: 20px;
+    border-radius: 50%; /* if you want a circular image */
+    border: 1px dotted red;
+  }
+  
+  .profile div {
+    display: flex;
+    flex-direction: column; /* stack the title and bio text */
+  }
+  
+  h1 {
+    margin: 0;
+    padding-bottom: 0.5em; /* space between the name and title */
+  }
+  
+  .profile p {
+    margin: 0;
+    padding: 0.2em 0; /* space between paragraphs */
+  }
+
+  .profile div p:last-child{
+    text-align: justify;
+  }
+/* ----------------- Skills --------------- */
+.skills-section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.skills-section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.skill-category {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px); /* Adjust width as necessary, accounting for gap */
+}
+
+.skill-category h3 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-category li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.skill-category li:last-child {
+  border-bottom: none;
+}
+  
+/* -------- footer ------------------------- */
+footer {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap onto multiple lines if necessary */
+  align-items: center; /* Vertically aligns the items in the center */
+  padding: 1%; /* Adds some padding around the footer */
+  background-color: rgb(237, 232, 232);
+  padding-left: 12%;
+}
+
+footer p {
+  margin: 0; /* Removes the default margin from the <p> tags */
+  margin-right: 1%;
+  font-size: 0.8em; /* Decreases the font size */
+  
+}
+
+
+/* ------- Publication Style --------------- */
+.publications-list {
+  list-style-type: none; /* Remove the default list bullet */
+  padding-left: 0; /* Remove the default padding */
+}
+
+.publications-list .publication {
+  margin-bottom: 1em; /* Add some space between list items */
+}
+
+.publications-list .publication h3 {
+  margin: 0 0 0.5em 0; /* Space between title and authors */
+  font-size: 1.2em; /* Adjust title font size as needed */
+}
+
+.publications-list .publication p {
+  margin: 0; /* Remove default paragraph margin */
+  font-size: 0.9em; /* Adjust font size as needed */
+}
+
+/* Contact me style */
+.contact-info {
+  margin: 2em 0;
+}
+
+.contact-info .contact-method {
+  margin-bottom: 0.5em; /* Add some space between contact methods */
+  font-size: 1em; /* Adjust the font size as needed */
+}
+
+.contact-info .contact-method a {
+  color: #007bff; /* Bootstrap primary link color, or choose your own */
+  text-decoration: none;
+}
+
+.contact-info .contact-method a:hover {
+  text-decoration: underline; /* Style for hover state */
+}
+
+/* ------ Education ------------ */
+.education-section .card {
+  /* Custom styles for the education cards */
+  border: 1px solid #ddd; /* Example border */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Example shadow */
+}
+
+/* --------- Certifications ---------- */

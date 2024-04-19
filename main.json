@@ -1,0 +1,174 @@
+{
+    "main": [
+      {
+        "title": "Masoud Aghayan",
+        "subtitle": "Master Student - Utrecht University",
+        "content": "As a Master’s student in Data Science at Utrecht University, I am excited by the fast-paced world of machine learning and artificial intelligence. My skills in Python, along with some knowledge in JavaScript from my web development projects, give me a wide range of programming tools. My love for math sparks my joy in working with numbers and tackling tough problems. I am eager to use sharp analysis and cutting-edge tech to make smart, data-driven choices in a lively work setting.",
+        "image": "image/masoud1.png",
+        "skills": {
+            "programming": [
+              "Python (Professional)",
+              "JavaScript (Professional)",
+              "C (Intermediate)"
+            ],
+            "webDevelopment": [
+              "CSS (Professional)",
+              "HTML (Professional)",
+              "SASS (Professional)",
+              "Bootstrap (Professional)"
+            ],
+            "machineLearning": [
+              "Deep Learning (Intermediate)",
+              "Random Forest (Intermediate)",
+              "TensorFlow (Intermediate)",
+              "CV2 (Intermediate)",
+              "Networkx (Intermediate)"
+            ],
+            "software": [
+              "Gephi (Basic)",
+              "GeNIe (Basic)",
+              "Bonita (Basic)"
+            ],
+            "banking": [
+              "KYC/CDD Analysis (Basic)",
+              "Financial Reports Analysis (Intermediate)",
+              "Financial Markets (Intermediate)"
+            ]
+          }
+      }
+    ],
+    "experience": [
+      {
+        "role": "Teaching Assistant",
+        "place": "Utrecht University",
+        "dates": "2024",
+        "details": [
+          "Computational Thinking and Programming with Python",
+          "Knowledge-intensive process analysis"
+        ]
+      },
+      {
+        "role": "Bank Teller",
+        "place": "Mehr Iran Bank",
+        "dates": "2014-2018"
+      },
+      {
+        "role": "Lecturer",
+        "place": "Shahrood University of Technology",
+        "dates": "2013"
+      }
+    ],
+    "education": [
+      {
+        "image": "./image/uu.png",
+        "degree": "Master’s in Data Science",
+        "place": "Utrecht University, Netherlands",
+        "dates": "2023 - Present"
+      },
+      {
+        "image": "./image/shu.png",
+        "degree": "Master’s in Pure Mathematics",
+        "place": "Shahrood University of Technology, Iran",
+        "dates": " "
+      },
+      {
+        "image": "./image/shu.png",
+        "degree": "Bachelor’s in Applied Mathematics",
+        "place": "Shahrood University of Technology, Iran",
+        "dates": " "
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Python Programming",
+        "provider": "Tehran Institute of Technology",
+        "year": "2023",
+        "url": "https://drive.google.com/file/d/1G1n33tUVhfqnBOa-p613hhNtMxnIWTTf/view?usp=drive_link"
+      },
+      {
+        "title": "Complete Python Developer in 2020: Zero to Mastery",
+        "provider": "Udemy",
+        "year": "2023",
+        "url": "https://example.com/python-developer-course"
+      },
+      {
+        "title": "Web Design Pack",
+        "provider": "Tehran Institute of Technology",
+        "year": "2023",
+        "url": "https://drive.google.com/file/d/1ofz9Iu-LkjxhGn7B90dj_WTZLNl12TNA/view?usp=drive_link"
+      },
+      {
+        "title": "Web Development",
+        "provider": "Winc Academy",
+        "year": "2023",
+        "url": "https://drive.google.com/file/d/11PrtgQqIhuNgrDixs8FT0WLBGkKYk_EE/view?usp=drive_link"
+      },
+      {
+        "title": "Game Theory",
+        "provider": "Coursera",
+        "year": "2020",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/PP6E2LATVP43"
+      },
+      {
+        "title": "Machine Learning",
+        "provider": "Coursera",
+        "year": "2018",
+        "url": "https://www.coursera.org/account/accomplishments/verify/TZSM75FEGQDZ"
+      }
+    ],
+    "publications": [
+        {
+            "title": "Common best proximity point theorems on cone b-metric spaces over banach algebras",
+            "authors": "S. M. Aghayan, A. Zireh, A. Ebadian",
+            "journal": "Gazi University Journal of Science",
+            "year": "2017",
+            "volume": "30",
+            "pages": "159–172"
+        },
+        {
+            "title": "Common best proximity points in complex valued b-metric spaces",
+            "authors": "S. M. Aghayan, A. Zireh, A. Ebadian",
+            "journal": "Cogent Mathematics",
+            "year": "2017",
+            "volume": "4",
+            "pages": "Article ID CogentOA.726157"
+        },
+        {
+            "title": "Common best proximity points in complex valued metric spaces",
+            "authors": "S. M. Aghayan, A. Zireh, A. Ebadian",
+            "journal": "Bulletin of the International Mathematical Virtual Institute",
+            "year": "2017",
+            "volume": "7",
+            "pages": "549–560"
+        },
+        {
+            "title": "Existence and uniqueness of simultaneous nearest points in complete banach lattice spaces",
+            "authors": "M. Aghayan, M. Iranmanesh",
+            "journal": "International Mathematical Forum",
+            "year": "2011",
+            "volume": "6",
+            "pages": "1861–1876"
+        }
+    ],
+    "contact": [
+      {
+        "method": "Email",
+        "address": "s.m.aghayan@students.uu.nl",
+        "url": "mailto:s.m.aghayan@students.uu.nl"
+      },
+      {
+        "method": "Email",
+        "address": "masoud.aghayan64@gmail.com",
+        "url": "mailto:masoud.aghayan64@gmail.com"
+      },
+      {
+        "method": "LinkedIn",
+        "url": "https://www.linkedin.com/in/masoud-aghayan-131586171/"
+      },
+      {
+        "method": "GitHub",
+        "url": "https://github.com/masoud112229"
+      }
+    ]
+  }
+  
